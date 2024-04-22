@@ -1,0 +1,28 @@
+.container-fluid{
+    height: 100vmax;
+    background-image: url(../../public/images/1_5lyavS59mazOFnb55Z6znQ.png);
+    background-size: contain;
+    width: 100%;
+    color: white;
+}
+.box{
+    height: 100vmax;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.desc{
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: pink; */
+    display: flex;
+}
+.desc h1{
+    font-size: 60px;
+    font-weight: bolder;
+}

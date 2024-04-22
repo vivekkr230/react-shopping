@@ -1,0 +1,17 @@
+<script>
+    var x=new Promise((resolve,rejected)=>{
+        var url=prompt('Enter the url')
+        if(url=="http://127.0.0.1"){
+            resolve("promise resolved")
+        }
+        else{
+            rejected("entered wrong url")
+        }
+    })
+    x().then((msg)=>{
+        document.write(`Success: {msg}`);
+    })
+    x().catch((msg)=>{
+        document.write(`Fail: {msg}`);
+    })
+</script>

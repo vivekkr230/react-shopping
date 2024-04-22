@@ -1,0 +1,12 @@
+<script>
+    var productId=Symbol();
+    var product={
+       [productId]:1,
+        Name:"iPhone 15",
+        Price:76853,
+        Rating:4.5
+    }
+    Object.keys(product).map(key=>
+    document.write(key + "<br>"))
+    document.write("prodductID:" + product[productId]);
+</script>

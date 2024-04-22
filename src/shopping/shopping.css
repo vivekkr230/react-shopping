@@ -1,0 +1,16 @@
+main{
+    height: 400px;
+    padding-top: 20px;
+}
+.card-women{
+    background-image: url(../../public/images/women-fashion.jpeg);
+    background-size: cover;
+}
+.card-men{
+    background-image: url(../../public/images/MS-Dhoni-3.webp);
+    background-size: cover;
+}
+.card-boy{
+    background-image: url(../component/flipkart/child-fashion.jpeg);
+    background-size: cover;
+}
